@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="darkLightMode">
+<!--        background -->
+        <attr name="background_color" format="color"/>
+        <attr name="background_card_color" format="color"/>
+        <attr name="background_top_color" format="color"/>
+
+<!--        text -->
+        <attr name="text_first_color" format="color"/>
+        <attr name="text_second_color" format="color"/>
+        <attr name="text_third_color" format="color"/>
+        <attr name="text_forth_color" format="color"/>
+
+<!--        icon -->
+        <attr name="icon_color" format="color"/>
+        <attr name="favorite_icon_color" format="color"/>
+        <attr name="not_favorite_icon_color" format="color"/>
+
+<!--        button -->
+        <attr name="background_button" format="color"/>
+        <attr name="background_button_favorite" format="color"/>
+        <attr name="text_button" format="color"/>
+
+<!--        border -->
+        <attr name="border" format="color"/>
+
+        <attr name="thumb_switch" format="color"/>
+        <attr name="link_switch" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">GithubApp</string>
+
+    <string name="search">Search</string>
+    <string name="tab_1">Followers</string>
+    <string name="tab_2">Following</string>
+    <string name="tab_3">Repository</string>
+
+    <string name="email_icon">email_icon</string>
+    <string name="repositories">Repositories</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="mobile_developer">Mobile Developer</string>
+    <string name="arana">arana</string>
+    <string name="andi_rifqial_nur">Andi Rifqial Nur</string>
+    <string name="menu_icon">menu_icon</string>
+    <string name="follow">Follow</string>
+    <string name="searchtxt">search</string>
+    <string name="btn_search">btn_search</string>
+    <string name="commit_ic">commit_ic</string>
+    <string name="commits">Commits</string>
+    <string name="issues_ic">issues_ic</string>
+    <string name="issues">issues</string>
+    <string name="repo_ic">repo_ic</string>
+    <string name="repositoriestxt">repositories</string>
+    <string name="avatar_profile">avatar_profile</string>
+    <string name="lang_ic">lang_ic</string>
+    <string name="python">Python</string>
+    <string name="size_ic">size_ic</string>
+    <string name="visible_ic">visible_ic</string>
+    <string name="_0">0</string>
+    <string name="fork_ic">fork_ic</string>
+    <string name="nothing">Nothing to show</string>
+    <string name="notsettext">Not Set</string>
+    <string name="splash_logo">Splash Logo</string>
+    <string name="github">Github</string>
+    <string name="user">User</string>
+    <string name="favorite">Favorite</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="here_is_the_settings_page_you_can_control_dark_light_mode_here">Here is the Settings Page You can control Dark Light Mode Here</string>
+    <string name="github_user_app_v1_0">Github User App v1.0</string>
+    <string name="addtofavorite">AddToFavorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="succes_add">Added</string>
+    <string name="success_delete">Deleted</string>
+    <string name="settings">Settings</string>
+    <string name="interfacesss">Interface</string>
+    <string name="icon_dark_mode">Icon Dark Mode</string>
+
+
+</resources>

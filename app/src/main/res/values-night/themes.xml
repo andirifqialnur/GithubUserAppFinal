@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GithubApp" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/background_top_color</item>
+        <item name="colorPrimaryVariant">@color/background_color</item>
+        <item name="colorOnPrimary">@color/text_first_color</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <color name="background_color">@color/background_color_dark</color>
+    <color name="background_card_color">@color/background_card_color_dark</color>
+    <color name="background_top_color">@color/background_top_color_dark</color>
+
+    <color name="text_first_color">@color/text_first_color_dark</color>
+    <color name="text_second_color">@color/text_second_color_dark</color>
+    <color name="text_third_color">@color/text_third_color_dark</color>
+    <color name="text_forth_color">@color/text_forth_color_dark</color>
+
+    <color name="icon_color">@color/icon_color_dark</color>
+    <color name="favorite_icon_color">@color/favorite_icon_color_dark</color>
+    <color name="not_favorite_icon_color">@color/not_favorite_icon_color_dark</color>
+
+    <color name="background_button">@color/background_button_dark</color>
+    <color name="background_button_favorite">@color/background_button_favorite_dark</color>
+    <color name="text_button">@color/text_button_dark</color>
+
+    <color name="border">@color/border_dark</color>
+
+    <color name="thumb_switch">@color/text_first_color_dark</color>
+    <color name="link_switch">@color/link_switch_dark</color>
+
+</resources>

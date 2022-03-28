@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!--    Light -->
+    <color name="background_color_light">#FFFFFF</color>
+    <color name="background_card_color_light">#F1F1F1</color>
+    <color name="background_top_color_light">#FFFFFF</color>
+
+    <color name="text_first_color_light">#001B81</color>
+    <color name="text_second_color_light">#FD7373</color>
+    <color name="text_third_color_light">#959595</color>
+    <color name="text_forth_color_light">#FF000000</color>
+
+    <color name="icon_color_light">#3E3E3E</color>
+    <color name="favorite_icon_color_light">#FF2929</color>
+    <color name="not_favorite_icon_color_light">#FFFFFF</color>
+
+    <color name="background_button_light">#FF6200EE</color>
+    <color name="background_button_favorite_light">#FFA7A7</color>
+    <color name="text_button_light">#FFFFFF</color>
+
+    <color name="border_light">#676565</color>
+
+    <color name="link_switch_light">#6181BA</color>
+
+    <!--    _________________________________________________________________________________________-->
+
+    <!--    Dark -->
+    <color name="background_color_dark">#FF000000</color>
+    <color name="background_card_color_dark">#C1505050</color>
+    <color name="background_top_color_dark">#FF000000</color>
+
+    <color name="text_first_color_dark">#FFFFFF</color>
+    <color name="text_second_color_dark">#92FF7A</color>
+    <color name="text_third_color_dark">#DCDCDC</color>
+    <color name="text_forth_color_dark">#B3E1FF</color>
+
+    <color name="icon_color_dark">#FFFFFF</color>
+    <color name="favorite_icon_color_dark">#FF018786</color>
+    <color name="not_favorite_icon_color_dark">#FFFFFF</color>
+
+    <color name="background_button_dark">#5012A8</color>
+    <color name="background_button_favorite_dark">#FF03DAC5</color>
+    <color name="text_button_dark">#FFFFFF</color>
+
+    <color name="border_dark">#FFFFFF</color>
+
+    <color name="link_switch_dark">#E1E1E1</color>
+
+</resources>

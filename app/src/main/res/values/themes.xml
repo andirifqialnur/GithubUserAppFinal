@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GithubApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/text_third_color</item>
+        <item name="colorPrimaryVariant">@color/text_third_color</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <color name="colorOnPrimary">@color/text_button_light</color>
+
+    <color name="background_color">@color/background_color_light</color>
+    <color name="background_card_color">@color/background_card_color_light</color>
+    <color name="background_top_color">@color/background_top_color_light</color>
+
+    <color name="text_first_color">@color/text_first_color_light</color>
+    <color name="text_second_color">@color/text_second_color_light</color>
+    <color name="text_third_color">@color/text_third_color_light</color>
+    <color name="text_forth_color">@color/text_forth_color_light</color>
+
+    <color name="icon_color">@color/icon_color_light</color>
+    <color name="favorite_icon_color">@color/favorite_icon_color_light</color>
+    <color name="not_favorite_icon_color">@color/not_favorite_icon_color_light</color>
+
+    <color name="background_button">@color/background_button_light</color>
+    <color name="background_button_favorite">@color/background_button_favorite_light</color>
+    <color name="text_button">@color/text_button_light</color>
+
+    <color name="border">@color/border_light</color>
+
+
+    <color name="thumb_switch">@color/text_first_color_light</color>
+    <color name="link_switch">@color/link_switch_light</color>
+
+    <style name="Theme.GithubApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.GithubApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.GithubApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

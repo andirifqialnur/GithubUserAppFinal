@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/det_emaillll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/background"
+        android:padding="10dp"
+        android:src="@drawable/ic_instagram"
+        app:layout_constraintBottom_toBottomOf="@+id/appCompatButton"
+        app:layout_constraintStart_toEndOf="@+id/appCompatButton"
+        app:layout_constraintTop_toTopOf="@+id/appCompatButton"
+        android:contentDescription="@string/email_icon" />
+
+    <ImageView
+        android:id="@+id/det_phoneeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/background"
+        android:padding="10dp"
+        android:src="@drawable/ic_menu"
+        app:layout_constraintBottom_toBottomOf="@+id/det_emaillll"
+        app:layout_constraintStart_toEndOf="@+id/det_emaillll"
+        app:layout_constraintTop_toTopOf="@+id/det_emaillll"
+        android:contentDescription="@string/menu_icon" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        android:layout_width="260dp"
+        android:layout_height="43dp"
+        android:background="@drawable/background_button"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/follow"
+        android:textAllCaps="false"
+        android:textColor="@color/text_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".ui.main.SettingsActivity">
+
+    <TextView
+        android:id="@+id/textttt"
+        android:textColor="@color/text_first_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/nunito_extra_bold"
+        android:text="@string/settings"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/descriptionnnnnnnnnn"
+        android:textColor="@color/text_third_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textttt"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/nunito_bold_italic"
+        android:text="@string/here_is_the_settings_page_you_can_control_dark_light_mode_here" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cd"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/descriptionnnnnnnnnn"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"
+        app:cardCornerRadius="15dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/background_card_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:textColor="@color/text_third_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="@string/interfacesss"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/icon_dark_mode"
+                android:src="@drawable/ic_dark_mode"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/theme_text"
+                app:layout_constraintHorizontal_bias="0.375"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/theme_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/nunito_regular"
+                android:text="@string/dark_mode"
+                android:textColor="@color/text_third_color"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/icon"
+                app:layout_constraintStart_toEndOf="@+id/icon"
+                app:layout_constraintTop_toTopOf="@+id/icon" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switches"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintBottom_toBottomOf="@+id/theme_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/theme_text"
+                android:thumbTint="@color/thumb_switch"
+                android:textColorLink="@color/link_switch"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/versionnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cd"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/nunito_bold_italic"
+        android:text="@string/github_user_app_v1_0"
+        android:textColor="@color/text_third_color" />
+
+
+</RelativeLayout>

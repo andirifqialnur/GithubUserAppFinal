@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/background.xml" value="0.3025" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/background_button.xml" value="0.3025" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/background_inline.xml" value="0.3025" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/button_inline.xml" value="0.192" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/favorite.xml" value="0.272" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/ic_dark_mode.xml" value="0.324" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/ic_favorite.xml" value="0.272" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/ic_favorite_white.xml" value="0.3025" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/ic_follower.xml" value="0.272" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/ic_followers.xml" value="0.272" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/ic_github_logo.xml" value="0.324" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/ic_github_logo_kecil.xml" value="0.324" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/ic_instagram.xml" value="0.3025" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/ic_light_mode.xml" value="0.272" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/ic_menu.xml" value="0.3025" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/drawable/ic_settings.xml" value="0.272" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/layout/activity_detail_user.xml" value="0.2726449275362319" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/layout/activity_favorite.xml" value="0.3692708333333333" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/layout/activity_main.xml" value="0.2868462757527734" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/layout/activity_settings.xml" value="0.1" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.3692708333333333" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/layout/follow_for_more.xml" value="0.34375" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/layout/fragment_details.xml" value="0.34375" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/layout/fragment_repo.xml" value="0.34375" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/layout/item_users.xml" value="0.34375" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/layout/item_users_repo.xml" value="0.18385416666666668" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/menu/detail_menu.xml" value="0.18385416666666668" />
+        <entry key="..\:/B A N G K I T/GithubApp/app/src/main/res/menu/main_menu.xml" value="0.34375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

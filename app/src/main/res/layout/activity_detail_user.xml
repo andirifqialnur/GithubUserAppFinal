@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".ui.main.DetailUserActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/det_img"
+        app:civ_border_color="@color/border"
+        app:civ_border_width="3dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        tools:src="@tools:sample/avatars"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/det_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/nunito_extra_bold"
+        android:text="@string/andi_rifqial_nur"
+        android:textColor="@color/text_first_color"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toEndOf="@+id/det_img"
+        app:layout_constraintTop_toTopOf="@+id/det_img" />
+
+    <TextView
+        android:id="@+id/det_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/nunito_italic"
+        android:text="@string/arana"
+        android:textColor="@color/text_second_color"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/det_name"
+        app:layout_constraintTop_toBottomOf="@+id/det_name"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/det_bio"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_italic"
+        android:text="@string/mobile_developer"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/text_third_color"
+        android:maxLines="2"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/det_username"
+        app:layout_constraintTop_toBottomOf="@+id/det_username" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_regular"
+        android:text="@string/followers"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/text_forth_color"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/det_img"
+        app:layout_constraintTop_toBottomOf="@+id/det_img" />
+
+    <TextView
+        android:id="@+id/det_followers"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/nunito_extra_bold"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textColor="@color/text_third_color"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/nunito_regular"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/following"
+        android:textColor="@color/text_forth_color"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewww3"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/det_img" />
+
+    <TextView
+        android:id="@+id/det_following"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/nunito_extra_bold"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textColor="@color/text_third_color"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textViewww3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/nunito_regular"
+        android:text="@string/repositories"
+        android:textAlignment="center"
+        android:textColor="@color/text_forth_color"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="@+id/include3"
+        app:layout_constraintTop_toBottomOf="@+id/det_img" />
+
+    <TextView
+        android:id="@+id/det_repo"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/nunito_extra_bold"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textColor="@color/text_third_color"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewww3"
+        app:layout_constraintStart_toStartOf="@+id/textViewww3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewww3" />
+
+    <include
+        android:id="@+id/include3"
+        layout="@layout/follow_for_more"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="19dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/det_followers" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/background_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include3"
+        app:tabBackground="@color/background_color"
+        app:tabTextColor="@color/text_first_color" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tabs"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabs" >
+    </androidx.viewpager2.widget.ViewPager2>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/background_button_favorite"
+            android:contentDescription="@string/addtofavorite"
+            android:src="@drawable/ic_favorite_white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+<!--    <ToggleButton-->
+<!--        android:id="@+id/favorite"-->
+<!--        android:layout_width="35dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:background="@drawable/favorite"-->
+<!--        android:textOff=" "-->
+<!--        android:textOn=""-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

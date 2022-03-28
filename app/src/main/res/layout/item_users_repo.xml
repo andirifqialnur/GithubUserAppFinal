@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/background_card_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tv_item_project_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_extra_bold"
+            android:textColor="@color/text_first_color"
+            android:textSize="16sp"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:text="Andi Rifqial Nur" />
+
+        <TextView
+            android:id="@+id/tv_item_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:textColor="@color/text_third_color"
+            android:fontFamily="@font/nunito_regular"
+            card_view:layout_constraintEnd_toEndOf="@+id/tv_item_project_name"
+            card_view:layout_constraintStart_toStartOf="@+id/tv_item_project_name"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_item_project_name"
+            card_view:layout_constraintVertical_bias="0.0"
+            tools:text="XiXi" />
+
+        <ImageView
+            android:id="@+id/lang_ic"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/ic_language"
+            card_view:layout_constraintStart_toStartOf="@+id/tv_item_desc"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_item_desc"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/lang_ic" />
+
+        <TextView
+            android:id="@+id/lang"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_regular"
+            android:layout_marginStart="5dp"
+            android:text="@string/python"
+            android:textColor="@color/text_third_color"
+            android:textSize="12sp"
+            card_view:layout_constraintBottom_toBottomOf="@+id/lang_ic"
+            card_view:layout_constraintStart_toEndOf="@+id/lang_ic"
+            card_view:layout_constraintTop_toTopOf="@+id/lang_ic"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_size"
+            card_view:layout_constraintBottom_toBottomOf="@+id/lang"
+            card_view:layout_constraintStart_toEndOf="@+id/lang"
+            card_view:layout_constraintTop_toTopOf="@+id/lang"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/size_ic" />
+
+        <TextView
+            android:id="@+id/size"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/_0"
+            android:textColor="@color/text_third_color"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_regular"
+            card_view:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            card_view:layout_constraintStart_toEndOf="@+id/imageView3"
+            card_view:layout_constraintTop_toTopOf="@+id/imageView3"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_watch"
+            card_view:layout_constraintBottom_toBottomOf="@+id/size"
+            card_view:layout_constraintStart_toEndOf="@+id/size"
+            card_view:layout_constraintTop_toTopOf="@+id/size"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/visible_ic" />
+
+        <TextView
+            android:id="@+id/watchers"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textSize="12sp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/text_third_color"
+            android:fontFamily="@font/nunito_regular"
+            card_view:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            card_view:layout_constraintStart_toEndOf="@+id/imageView2"
+            card_view:layout_constraintTop_toTopOf="@+id/imageView2"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_fork"
+            card_view:layout_constraintBottom_toBottomOf="@+id/watchers"
+            card_view:layout_constraintStart_toEndOf="@+id/watchers"
+            card_view:layout_constraintTop_toTopOf="@+id/watchers"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/fork_ic" />
+
+        <TextView
+            android:id="@+id/forks"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textColor="@color/text_third_color"
+            android:layout_marginStart="5dp"
+            android:textSize="12sp"
+            android:fontFamily="@font/nunito_regular"
+            card_view:layout_constraintBottom_toBottomOf="@+id/imageView"
+            card_view:layout_constraintStart_toEndOf="@+id/imageView"
+            card_view:layout_constraintTop_toTopOf="@+id/imageView"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
